@@ -11,7 +11,7 @@
       ~/.zshrc: zshrc
       ~/.local/share/konsole/Profile 1.profile: .local/share/konsole/Profile 1.profile
       ~/.local/share/konsole/WhiteOnBlack.colorscheme: .local/share/konsole/WhiteOnBlack.colorscheme
-      ~/.config: .config/konsolerc
+      ~/.config/konsolerc: .config/konsolerc
 
 - shell:
       - [git submodule update --init --recursive, Installing submodules]
