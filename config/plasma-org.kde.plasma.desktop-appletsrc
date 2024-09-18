@@ -32,6 +32,8 @@ wallpaperplugin=org.kde.image
 [Containments][28][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=192
+positions={"1536x864":["1"\\,"14"\\,"desktop:/nqueens.pmdx"\\,"0"\\,"2"\\,"desktop:/test.js"\\,"0"\\,"3"\\,"desktop:/Azizi simulation.ods"\\,"0"\\,"1"\\,"desktop:/tests"\\,"0"\\,"0"]}
+sortMode=-1
 
 [Containments][28][Wallpaper][org.kde.image][General]
 Image=/usr/share/wallpapers/summer_1am/
@@ -226,7 +228,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][36][Applets][49][Configuration]
-PreloadWeight=13
+PreloadWeight=0
 
 [Containments][36][Applets][49][Configuration][General]
 showPercentage=true
@@ -484,5 +486,5 @@ SlidePaths=/usr/share/wallpapers/
 launchers=preferred://filemanager,applications:org.kde.konsole.desktop,preferred://browser,applications:org.manjaro.pamac.manager.desktop
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,1a81f44e-02dd-4bed-8661-1d5697b45639,4,desktop:/nqueens.pmdx,desktop:/test.js,desktop:/tests,desktop:/Azizi simulation.ods
-screenMapping=desktop:/test.js,1,1a81f44e-02dd-4bed-8661-1d5697b45639,desktop:/Azizi simulation.ods,1,1a81f44e-02dd-4bed-8661-1d5697b45639,desktop:/nqueens.pmdx,1,1a81f44e-02dd-4bed-8661-1d5697b45639,desktop:/tests,1,1a81f44e-02dd-4bed-8661-1d5697b45639
+itemsOnDisabledScreens=0,1a81f44e-02dd-4bed-8661-1d5697b45639,4,desktop:/tests,desktop:/Azizi simulation.ods,desktop:/test.js,desktop:/nqueens.pmdx
+screenMapping=desktop:/tests,1,1a81f44e-02dd-4bed-8661-1d5697b45639,desktop:/Azizi simulation.ods,1,1a81f44e-02dd-4bed-8661-1d5697b45639,desktop:/test.js,1,1a81f44e-02dd-4bed-8661-1d5697b45639,desktop:/nqueens.pmdx,1,1a81f44e-02dd-4bed-8661-1d5697b45639
