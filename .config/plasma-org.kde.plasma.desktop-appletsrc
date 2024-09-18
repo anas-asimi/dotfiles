@@ -133,7 +133,7 @@ fgCustomColors=#ed8796 #A6DA95 #EED49F #8aadf4 #F5BDE6 #8BD5CA #f5a97f
 fgSingleColor=#a7a7a7
 hideWidget=true
 panelWidgets=org.kde.plasma.kickoff,Application Launcher,org.kde.plasma.grouping|org.kde.plasma.icontasks,Icons-only Task Manager,preferences-system-windows|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.systemtray,System Tray,preferences-desktop-notification|org.kde.plasma.digitalclock,Digital Clock,preferences-system-time|org.kde.plasma.showdesktop,Peek at Desktop,user-desktop-symbolic
-panelWidgetsWithTray=org.kde.plasma.kickoff,Application Launcher,org.kde.plasma.grouping|org.kde.plasma.icontasks,Icons-only Task Manager,preferences-system-windows|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.clipboard,Clipboard,klipper-symbolic|org.kde.plasma.volume,Audio Volume,audio-volume-muted|org.kde.plasma.brightness,Brightness and Color,brightness-high-symbolic|org.kde.plasma.keyboardlayout,Keyboard Layout,input-keyboard|org.kde.plasma.networkmanagement,Networks,network-wireless-80|org.kde.plasma.digitalclock,Digital Clock,preferences-system-time|org.kde.plasma.showdesktop,Peek at Desktop,user-desktop-symbolic
+panelWidgetsWithTray=org.kde.plasma.kickoff,Application Launcher,org.kde.plasma.grouping|org.kde.plasma.icontasks,Icons-only Task Manager,preferences-system-windows|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.clipboard,Clipboard,klipper-symbolic|org.kde.plasma.volume,Audio Volume,audio-volume-muted|org.kde.plasma.brightness,Brightness and Color,brightness-high-symbolic|org.kde.plasma.keyboardlayout,Keyboard Layout,input-keyboard|org.kde.plasma.networkmanagement,Networks,network-wireless-80|org.kde.plasma.battery,Power and Battery,battery-full-symbolic|org.kde.plasma.digitalclock,Digital Clock,preferences-system-time|org.kde.plasma.showdesktop,Peek at Desktop,user-desktop-symbolic
 singleColor=#747474
 widgetBgEnabled=true
 widgetBgHMargin=4
@@ -163,6 +163,9 @@ plugin=org.kde.plasma.manage-inputmethod
 [Containments][36][Applets][39]
 immutability=1
 plugin=org.kde.plasma.clipboard
+
+[Containments][36][Applets][39][Configuration]
+PreloadWeight=55
 
 [Containments][36][Applets][40]
 immutability=1
@@ -201,7 +204,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][36][Applets][44][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 
 [Containments][36][Applets][45]
 immutability=1
@@ -223,7 +226,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][36][Applets][49][Configuration]
-PreloadWeight=16
+PreloadWeight=13
 
 [Containments][36][Applets][49][Configuration][General]
 showPercentage=true
@@ -240,7 +243,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][36][Applets][51][Configuration]
-PreloadWeight=39
+PreloadWeight=31
 
 [Containments][36][Applets][52]
 immutability=1
