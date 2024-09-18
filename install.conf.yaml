@@ -1,6 +1,7 @@
 - defaults:
       link:
           relink: true
+          force: true
 
 - clean: ["~"]
 
@@ -12,6 +13,8 @@
       ~/.local/share/konsole/Profile 1.profile: .local/share/konsole/Profile 1.profile
       ~/.local/share/konsole/WhiteOnBlack.colorscheme: .local/share/konsole/WhiteOnBlack.colorscheme
       ~/.config/konsolerc: .config/konsolerc
+      ~/.config/plasma-org.kde.plasma.desktop-appletsrc: .config/plasma-org.kde.plasma.desktop-appletsrc
+      ~/.config/plasma-workspace/env/kde_env_var.sh: .config/plasma-workspace/env/kde_env_var.sh
 
 - shell:
       - [git submodule update --init --recursive, Installing submodules]
