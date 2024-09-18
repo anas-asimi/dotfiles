@@ -111,6 +111,3 @@ shopt -s expand_aliases
 
 # Enable history appending instead of overwriting.  #139609
 shopt -s histappend
-
-# improve scalling in kde
-export QT_SCALE_FACTOR_ROUNDING_POLICY=RoundPreferFloor
