@@ -16,29 +16,6 @@ chartFace=org.kde.ksysguard.textonly
 [Containments][27][Applets][69][Configuration][SensorColors]
 power/SerialNumber/chargeRate=0,110,98
 
-[Containments][28]
-ItemGeometries-0x0=Applet-60:1535,536,164,180,0;
-ItemGeometries-1536x864=Applet-60:1535,476,164,180,0;
-ItemGeometries-1920x1080=
-ItemGeometriesHorizontal=
-activityId=1a81f44e-02dd-4bed-8661-1d5697b45639
-formfactor=0
-immutability=1
-lastScreen=1
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][28][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=192
-positions={"1536x864":["1"\\,"14"\\,"desktop:/test.js"\\,"0"\\,"3"\\,"desktop:/Azizi simulation.ods"\\,"0"\\,"1"\\,"desktop:/tests"\\,"0"\\,"0"\\,"desktop:/nqueens.pmdx"\\,"0"\\,"2"]\\,"0x0":[]}
-sortMode=-1
-
-[Containments][28][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/summer_1am/
-SlidePaths=/usr/share/wallpapers/
-
 [Containments][29]
 activityId=
 formfactor=2
@@ -54,8 +31,8 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][29][Applets][30][Configuration]
 PreloadWeight=100
-popupHeight=570
-popupWidth=669
+popupHeight=611
+popupWidth=665
 
 [Containments][29][Applets][30][Configuration][ConfigDialog]
 DialogHeight=540
@@ -79,7 +56,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][29][Applets][31][Configuration][General]
-launchers=preferred://filemanager,applications:systemsettings.desktop,applications:org.kde.konsole.desktop,applications:code.desktop,applications:firefox.desktop
+launchers=preferred://filemanager,applications:systemsettings.desktop,applications:org.kde.plasma-systemmonitor.desktop,applications:org.kde.konsole.desktop,applications:google-chrome.desktop,applications:firefox_firefox.desktop
 
 [Containments][29][Applets][33]
 immutability=1
@@ -102,7 +79,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][29][Applets][48][Configuration]
-PreloadWeight=60
+PreloadWeight=100
 popupHeight=450
 popupWidth=560
 
@@ -111,7 +88,9 @@ autoFontAndSize=false
 customDateFormat=dddd d
 dateDisplayFormat=BesideTime
 dateFormat=custom
-fontFamily=Noto Sans
+fontFamily=Noto Kufi Arabic
+fontSize=9
+fontStyleName=Regular
 fontWeight=400
 use24hFormat=2
 
@@ -123,9 +102,14 @@ DialogWidth=720
 immutability=1
 plugin=luisbocanegra.panel.colorizer
 
+[Containments][29][Applets][65][Configuration]
+PreloadWeight=100
+popupHeight=180
+popupWidth=180
+
 [Containments][29][Applets][65][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+DialogHeight=792
+DialogWidth=1536
 
 [Containments][29][Applets][65][Configuration][General]
 colorMode=0
@@ -133,8 +117,9 @@ fgColorEnabled=true
 fgColorMode=2
 fgCustomColors=#ed8796 #A6DA95 #EED49F #8aadf4 #F5BDE6 #8BD5CA #f5a97f
 fgSingleColor=#a7a7a7
+globalSettings={"panel":{"enabled":false,"blurBehind":false,"backgroundColor":{"enabled":true,"lightnessValue":0.5,"saturationValue":0.5,"alpha":1,"systemColor":"backgroundColor","systemColorSet":"View","custom":"#013eff","list":{"0":"#ED8796","1":"#A6DA95","2":"#EED49F","3":"#8AADF4","4":"#F5BDE6","5":"#8BD5CA","6":"#f5a97f"},"followColor":0,"saturationEnabled":false,"lightnessEnabled":false,"animation":{"enabled":false,"interval":3000,"smoothing":800},"sourceType":1},"foregroundColor":{"enabled":false,"lightnessValue":0.5,"saturationValue":0.5,"alpha":1,"systemColor":"highlightColor","systemColorSet":"View","custom":"#fc0000","list":{"0":"#ED8796","1":"#A6DA95","2":"#EED49F","3":"#8AADF4","4":"#F5BDE6","5":"#8BD5CA","6":"#f5a97f"},"followColor":0,"saturationEnabled":false,"lightnessEnabled":false,"animation":{"enabled":false,"interval":3000,"smoothing":800},"sourceType":1},"radius":{"enabled":false,"corner":{"topLeft":5,"topRight":5,"bottomRight":5,"bottomLeft":5}},"margin":{"enabled":false,"side":{"right":0,"left":0,"top":0,"bottom":0}},"padding":{"enabled":false,"side":{"right":0,"left":0,"top":0,"bottom":0}},"border":{"enabled":false,"customSides":false,"custom":{"widths":{"left":0,"bottom":3,"right":0,"top":0},"margin":{"enabled":false,"side":{"right":0,"left":0,"top":0,"bottom":0}},"radius":{"enabled":false,"corner":{"topLeft":5,"topRight":5,"bottomRight":5,"bottomLeft":5}}},"width":0,"color":{"lightnessValue":0.5,"saturationValue":0.5,"alpha":1,"systemColor":"highlightColor","systemColorSet":"View","custom":"#ff6c06","list":{"0":"#ED8796","1":"#A6DA95","2":"#EED49F","3":"#8AADF4","4":"#F5BDE6","5":"#8BD5CA","6":"#f5a97f"},"followColor":0,"saturationEnabled":false,"lightnessEnabled":false,"animation":{"enabled":false,"interval":3000,"smoothing":800},"sourceType":1,"enabled":true}},"borderSecondary":{"enabled":false,"customSides":false,"custom":{"widths":{"left":0,"bottom":3,"right":0,"top":0},"margin":{"enabled":false,"side":{"right":0,"left":0,"top":0,"bottom":0}},"radius":{"enabled":false,"corner":{"topLeft":5,"topRight":5,"bottomRight":5,"bottomLeft":5}}},"width":0,"color":{"lightnessValue":0.5,"saturationValue":0.5,"alpha":1,"systemColor":"highlightColor","systemColorSet":"View","custom":"#ff6c06","list":{"0":"#ED8796","1":"#A6DA95","2":"#EED49F","3":"#8AADF4","4":"#F5BDE6","5":"#8BD5CA","6":"#f5a97f"},"followColor":0,"saturationEnabled":false,"lightnessEnabled":false,"animation":{"enabled":false,"interval":3000,"smoothing":800},"sourceType":1,"enabled":true}},"shadow":{"background":{"enabled":false,"color":{"lightnessValue":0.5,"saturationValue":0.5,"alpha":1,"systemColor":"backgroundColor","systemColorSet":"View","custom":"#282828","list":{"0":"#ED8796","1":"#A6DA95","2":"#EED49F","3":"#8AADF4","4":"#F5BDE6","5":"#8BD5CA","6":"#f5a97f"},"followColor":0,"saturationEnabled":false,"lightnessEnabled":false,"animation":{"enabled":false,"interval":3000,"smoothing":800},"sourceType":1,"enabled":true},"size":5,"xOffset":0,"yOffset":0},"foreground":{"enabled":false,"color":{"lightnessValue":0.5,"saturationValue":0.5,"alpha":1,"systemColor":"backgroundColor","systemColorSet":"View","custom":"#282828","list":{"0":"#ED8796","1":"#A6DA95","2":"#EED49F","3":"#8AADF4","4":"#F5BDE6","5":"#8BD5CA","6":"#f5a97f"},"followColor":0,"saturationEnabled":false,"lightnessEnabled":false,"animation":{"enabled":false,"interval":3000,"smoothing":800},"sourceType":1,"enabled":true},"size":5,"xOffset":0,"yOffset":0}},"floatingDialogs":false},"widgets":{"enabled":true,"blurBehind":false,"backgroundColor":{"enabled":false,"lightnessValue":0.5,"saturationValue":0.5,"alpha":1,"systemColor":"backgroundColor","systemColorSet":"View","custom":"#013eff","list":{"0":"#ED8796","1":"#A6DA95","2":"#EED49F","3":"#8AADF4","4":"#F5BDE6","5":"#8BD5CA","6":"#f5a97f"},"followColor":0,"saturationEnabled":false,"lightnessEnabled":false,"animation":{"enabled":false,"interval":3000,"smoothing":800},"sourceType":1},"foregroundColor":{"enabled":false,"lightnessValue":0.5,"saturationValue":0.5,"alpha":1,"systemColor":"highlightColor","systemColorSet":"View","custom":"#fc0000","list":{"0":"#ED8796","1":"#A6DA95","2":"#EED49F","3":"#8AADF4","4":"#F5BDE6","5":"#8BD5CA","6":"#f5a97f"},"followColor":0,"saturationEnabled":false,"lightnessEnabled":false,"animation":{"enabled":false,"interval":3000,"smoothing":800},"sourceType":1},"radius":{"enabled":false,"corner":{"topLeft":5,"topRight":5,"bottomRight":5,"bottomLeft":5}},"margin":{"enabled":false,"side":{"right":0,"left":0,"top":0,"bottom":0}},"spacing":4,"border":{"enabled":false,"customSides":false,"custom":{"widths":{"left":0,"bottom":3,"right":0,"top":0},"margin":{"enabled":false,"side":{"right":0,"left":0,"top":0,"bottom":0}},"radius":{"enabled":false,"corner":{"topLeft":5,"topRight":5,"bottomRight":5,"bottomLeft":5}}},"width":0,"color":{"lightnessValue":0.5,"saturationValue":0.5,"alpha":1,"systemColor":"highlightColor","systemColorSet":"View","custom":"#ff6c06","list":{"0":"#ED8796","1":"#A6DA95","2":"#EED49F","3":"#8AADF4","4":"#F5BDE6","5":"#8BD5CA","6":"#f5a97f"},"followColor":0,"saturationEnabled":false,"lightnessEnabled":false,"animation":{"enabled":false,"interval":3000,"smoothing":800},"sourceType":1,"enabled":true}},"borderSecondary":{"enabled":false,"customSides":false,"custom":{"widths":{"left":0,"bottom":3,"right":0,"top":0},"margin":{"enabled":false,"side":{"right":0,"left":0,"top":0,"bottom":0}},"radius":{"enabled":false,"corner":{"topLeft":5,"topRight":5,"bottomRight":5,"bottomLeft":5}}},"width":0,"color":{"lightnessValue":0.5,"saturationValue":0.5,"alpha":1,"systemColor":"highlightColor","systemColorSet":"View","custom":"#ff6c06","list":{"0":"#ED8796","1":"#A6DA95","2":"#EED49F","3":"#8AADF4","4":"#F5BDE6","5":"#8BD5CA","6":"#f5a97f"},"followColor":0,"saturationEnabled":false,"lightnessEnabled":false,"animation":{"enabled":false,"interval":3000,"smoothing":800},"sourceType":1,"enabled":true}},"shadow":{"background":{"enabled":false,"color":{"lightnessValue":0.5,"saturationValue":0.5,"alpha":1,"systemColor":"backgroundColor","systemColorSet":"View","custom":"#282828","list":{"0":"#ED8796","1":"#A6DA95","2":"#EED49F","3":"#8AADF4","4":"#F5BDE6","5":"#8BD5CA","6":"#f5a97f"},"followColor":0,"saturationEnabled":false,"lightnessEnabled":false,"animation":{"enabled":false,"interval":3000,"smoothing":800},"sourceType":1,"enabled":true},"size":5,"xOffset":0,"yOffset":0},"foreground":{"enabled":false,"color":{"lightnessValue":0.5,"saturationValue":0.5,"alpha":1,"systemColor":"backgroundColor","systemColorSet":"View","custom":"#282828","list":{"0":"#ED8796","1":"#A6DA95","2":"#EED49F","3":"#8AADF4","4":"#F5BDE6","5":"#8BD5CA","6":"#f5a97f"},"followColor":0,"saturationEnabled":false,"lightnessEnabled":false,"animation":{"enabled":false,"interval":3000,"smoothing":800},"sourceType":1,"enabled":true},"size":5,"xOffset":0,"yOffset":0}}},"trayWidgets":{"enabled":false,"blurBehind":false,"backgroundColor":{"enabled":false,"lightnessValue":0.5,"saturationValue":0.5,"alpha":1,"systemColor":"backgroundColor","systemColorSet":"View","custom":"#013eff","list":{"0":"#ED8796","1":"#A6DA95","2":"#EED49F","3":"#8AADF4","4":"#F5BDE6","5":"#8BD5CA","6":"#f5a97f"},"followColor":0,"saturationEnabled":false,"lightnessEnabled":false,"animation":{"enabled":false,"interval":3000,"smoothing":800},"sourceType":1},"foregroundColor":{"enabled":false,"lightnessValue":0.5,"saturationValue":0.5,"alpha":1,"systemColor":"highlightColor","systemColorSet":"View","custom":"#fc0000","list":{"0":"#ED8796","1":"#A6DA95","2":"#EED49F","3":"#8AADF4","4":"#F5BDE6","5":"#8BD5CA","6":"#f5a97f"},"followColor":0,"saturationEnabled":false,"lightnessEnabled":false,"animation":{"enabled":false,"interval":3000,"smoothing":800},"sourceType":1},"radius":{"enabled":false,"corner":{"topLeft":5,"topRight":5,"bottomRight":5,"bottomLeft":5}},"margin":{"enabled":false,"side":{"right":0,"left":0,"top":0,"bottom":0}},"border":{"enabled":false,"customSides":false,"custom":{"widths":{"left":0,"bottom":3,"right":0,"top":0},"margin":{"enabled":false,"side":{"right":0,"left":0,"top":0,"bottom":0}},"radius":{"enabled":false,"corner":{"topLeft":5,"topRight":5,"bottomRight":5,"bottomLeft":5}}},"width":0,"color":{"lightnessValue":0.5,"saturationValue":0.5,"alpha":1,"systemColor":"highlightColor","systemColorSet":"View","custom":"#ff6c06","list":{"0":"#ED8796","1":"#A6DA95","2":"#EED49F","3":"#8AADF4","4":"#F5BDE6","5":"#8BD5CA","6":"#f5a97f"},"followColor":0,"saturationEnabled":false,"lightnessEnabled":false,"animation":{"enabled":false,"interval":3000,"smoothing":800},"sourceType":1,"enabled":true}},"borderSecondary":{"enabled":false,"customSides":false,"custom":{"widths":{"left":0,"bottom":3,"right":0,"top":0},"margin":{"enabled":false,"side":{"right":0,"left":0,"top":0,"bottom":0}},"radius":{"enabled":false,"corner":{"topLeft":5,"topRight":5,"bottomRight":5,"bottomLeft":5}}},"width":0,"color":{"lightnessValue":0.5,"saturationValue":0.5,"alpha":1,"systemColor":"highlightColor","systemColorSet":"View","custom":"#ff6c06","list":{"0":"#ED8796","1":"#A6DA95","2":"#EED49F","3":"#8AADF4","4":"#F5BDE6","5":"#8BD5CA","6":"#f5a97f"},"followColor":0,"saturationEnabled":false,"lightnessEnabled":false,"animation":{"enabled":false,"interval":3000,"smoothing":800},"sourceType":1,"enabled":true}},"shadow":{"background":{"enabled":false,"color":{"lightnessValue":0.5,"saturationValue":0.5,"alpha":1,"systemColor":"backgroundColor","systemColorSet":"View","custom":"#282828","list":{"0":"#ED8796","1":"#A6DA95","2":"#EED49F","3":"#8AADF4","4":"#F5BDE6","5":"#8BD5CA","6":"#f5a97f"},"followColor":0,"saturationEnabled":false,"lightnessEnabled":false,"animation":{"enabled":false,"interval":3000,"smoothing":800},"sourceType":1,"enabled":true},"size":5,"xOffset":0,"yOffset":0},"foreground":{"enabled":false,"color":{"lightnessValue":0.5,"saturationValue":0.5,"alpha":1,"systemColor":"backgroundColor","systemColorSet":"View","custom":"#282828","list":{"0":"#ED8796","1":"#A6DA95","2":"#EED49F","3":"#8AADF4","4":"#F5BDE6","5":"#8BD5CA","6":"#f5a97f"},"followColor":0,"saturationEnabled":false,"lightnessEnabled":false,"animation":{"enabled":false,"interval":3000,"smoothing":800},"sourceType":1,"enabled":true},"size":5,"xOffset":0,"yOffset":0}}},"nativePanelBackground":{"enabled":true,"opacity":1,"shadow":true},"stockPanelSettings":{"position":{"enabled":false,"value":"top"},"alignment":{"enabled":false,"value":"center"},"lengthMode":{"enabled":false,"value":"fill"},"visibility":{"enabled":false,"value":"none"},"opacity":{"enabled":false,"value":"adaptive"},"floating":{"enabled":false,"value":false},"thickness":{"enabled":false,"value":48},"visible":{"enabled":false,"value":true}},"configurationOverrides":{"overrides":{},"associations":{}},"unifiedBackground":{}}
 hideWidget=true
-panelWidgets=org.kde.plasma.kickoff,Application Launcher,org.kde.plasma.grouping|org.kde.plasma.icontasks,Icons-only Task Manager,preferences-system-windows|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.systemtray,System Tray,preferences-desktop-notification|org.kde.plasma.digitalclock,Digital Clock,preferences-system-time|org.kde.plasma.showdesktop,Peek at Desktop,user-desktop-symbolic
+panelWidgets=[{"id":30,"name":"org.kde.plasma.kickoff","title":"Application Launcher","icon":"org.kde.plasma.grouping","inTray":false},{"id":31,"name":"org.kde.plasma.icontasks","title":"Icons-Only Task Manager","icon":"preferences-system-windows","inTray":false},{"id":65,"name":"luisbocanegra.panel.colorizer","title":"Panel colorizer","icon":"desktop","inTray":false},{"id":35,"name":"org.kde.plasma.systemtray","title":"System Tray","icon":"preferences-desktop-notification","inTray":false},{"id":48,"name":"org.kde.plasma.digitalclock","title":"Digital Clock","icon":"preferences-system-time","inTray":false},{"id":33,"name":"org.kde.plasma.showdesktop","title":"Peek at Desktop","icon":"user-desktop-symbolic","inTray":false},{"id":39,"name":"org.kde.plasma.clipboard","title":"Clipboard","icon":"klipper-symbolic","inTray":true},{"id":-1,"name":"kded6","title":"Upgrade available","icon":"system-software-update-symbolic","inTray":true},{"id":42,"name":"org.kde.plasma.volume","title":"Audio Volume","icon":"audio-volume-medium-symbolic","inTray":true},{"id":50,"name":"org.kde.plasma.brightness","title":"Brightness and Colour","icon":"brightness-high-symbolic","inTray":true},{"id":40,"name":"org.kde.plasma.keyboardlayout","title":"Keyboard Layout","icon":"input-keyboard","inTray":true},{"id":52,"name":"org.kde.plasma.networkmanagement","title":"Networks","icon":"network-wireless-100-symbolic","inTray":true},{"id":49,"name":"org.kde.plasma.battery","title":"Power and Battery","icon":"battery-full-symbolic","inTray":true},{"id":-1,"name":"org.kde.plasma.systemtray.expand","title":"Show hidden icons","icon":"arrow-down","inTray":true}]
 panelWidgetsWithTray=org.kde.plasma.kickoff,Application Launcher,org.kde.plasma.grouping|org.kde.plasma.icontasks,Icons-only Task Manager,preferences-system-windows|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.clipboard,Clipboard,klipper-symbolic|org.kde.plasma.volume,Audio Volume,audio-volume-muted|org.kde.plasma.brightness,Brightness and Color,brightness-high-symbolic|org.kde.plasma.keyboardlayout,Keyboard Layout,input-keyboard|org.kde.plasma.networkmanagement,Networks,network-wireless-80|org.kde.plasma.battery,Power and Battery,battery-full-symbolic|org.kde.plasma.digitalclock,Digital Clock,preferences-system-time|org.kde.plasma.showdesktop,Peek at Desktop,user-desktop-symbolic
 singleColor=#747474
 widgetBgEnabled=true
@@ -167,7 +152,7 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][36][Applets][39][Configuration]
-PreloadWeight=55
+PreloadWeight=100
 
 [Containments][36][Applets][40]
 immutability=1
@@ -192,7 +177,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][36][Applets][42][Configuration]
-PreloadWeight=90
+PreloadWeight=100
 
 [Containments][36][Applets][42][Configuration][General]
 migrated=true
@@ -201,16 +186,22 @@ migrated=true
 immutability=1
 plugin=org.kde.kscreen
 
+[Containments][36][Applets][43][Configuration]
+PreloadWeight=95
+
 [Containments][36][Applets][44]
 immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][36][Applets][44][Configuration]
-PreloadWeight=60
+PreloadWeight=70
 
 [Containments][36][Applets][45]
 immutability=1
 plugin=org.kde.plasma.notifications
+
+[Containments][36][Applets][45][Configuration]
+PreloadWeight=75
 
 [Containments][36][Applets][46]
 immutability=1
@@ -221,14 +212,14 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][36][Applets][47][Configuration]
-PreloadWeight=70
+PreloadWeight=100
 
 [Containments][36][Applets][49]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][36][Applets][49][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][36][Applets][49][Configuration][General]
 showPercentage=true
@@ -245,7 +236,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][36][Applets][51][Configuration]
-PreloadWeight=0
+PreloadWeight=74
 
 [Containments][36][Applets][52]
 immutability=1
@@ -254,6 +245,9 @@ plugin=org.kde.plasma.networkmanagement
 [Containments][36][Applets][52][Configuration]
 PreloadWeight=100
 
+[Containments][36][Applets][52][Configuration][General]
+currentDetailsTab=details
+
 [Containments][36][Applets][64]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
@@ -261,231 +255,72 @@ plugin=org.kde.plasma.mediacontroller
 [Containments][36][Applets][64][Configuration]
 PreloadWeight=0
 
-[Containments][36][General]
-extraItems=org.kde.plasma.bluetooth,org.kde.plasma.printmanager,org.kde.plasma.brightness,org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,org.kde.plasma.battery,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.kscreen,org.kde.kdeconnect,org.kde.plasma.notifications,org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.battery
-knownItems=org.kde.plasma.bluetooth,org.kde.plasma.printmanager,org.kde.plasma.brightness,org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,org.kde.plasma.battery,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.kscreen,org.kde.kdeconnect,org.kde.plasma.notifications,org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier
+[Containments][36][Applets][66]
+immutability=1
+plugin=org.kde.plasma.vault
 
-[Containments][70]
-ItemGeometries-1536x864=Applet-66:0,0,304,176,0;Applet-71:0,176,304,240,0;Applet-53:1232,0,304,192,0;Applet-56:1232,192,304,192,0;Applet-67:0,432,64,352,0;Applet-62:1232,384,304,208,0;Applet-63:1232,592,304,208,0;
-ItemGeometries-1920x1080=Applet-71:0,176,304,240,0;Applet-53:1232,0,304,224,0;Applet-67:0,432,64,352,0;Applet-62:1232,384,304,208,0;Applet-56:1616,176,304,224,0;Applet-66:0,784,304,208,0;Applet-63:1232,592,304,224,0;
-ItemGeometriesHorizontal=Applet-66:0,0,304,176,0;Applet-71:0,176,304,240,0;Applet-53:1232,0,304,192,0;Applet-56:1232,192,304,192,0;Applet-67:0,432,64,352,0;Applet-62:1232,384,304,208,0;Applet-63:1232,592,304,208,0;
-activityId=1a81f44e-02dd-4bed-8661-1d5697b45639
+[Containments][36][General]
+extraItems=org.kde.plasma.bluetooth,org.kde.plasma.printmanager,org.kde.plasma.brightness,org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,org.kde.plasma.battery,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.kscreen,org.kde.kdeconnect,org.kde.plasma.notifications,org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.vault,org.kde.kupapplet
+knownItems=org.kde.plasma.bluetooth,org.kde.plasma.printmanager,org.kde.plasma.brightness,org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,org.kde.plasma.battery,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.kscreen,org.kde.kdeconnect,org.kde.plasma.notifications,org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.vault,org.kde.kupapplet
+
+[Containments][72]
+ItemGeometries-1536x864=
+ItemGeometriesHorizontal=
+activityId=da58b092-8709-45c0-be32-121c62ba4980
 formfactor=0
 immutability=1
 lastScreen=0
 location=0
-plugin=org.kde.desktopcontainment
+plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][70][Applets][53]
-immutability=1
-plugin=org.kde.plasma.systemmonitor.diskusage
+[Containments][72][ConfigDialog]
+DialogHeight=792
+DialogWidth=1536
 
-[Containments][70][Applets][53][Configuration]
-CurrentPreset=org.kde.plasma.systemmonitor
-
-[Containments][70][Applets][53][Configuration][Appearance]
-chartFace=org.kde.ksysguard.horizontalbars
-title=Disk Usage
-
-[Containments][70][Applets][53][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][70][Applets][53][Configuration][SensorColors]
-disk/.*/usedPercent=0,110,98
-disk/43bb1ad1-ac76-4345-a28c-bf91de11127a/used=0,110,33
-disk/43bb1ad1-ac76-4345-a28c-bf91de11127a/usedPercent=85,170,255
-disk/all/usedPercent=0,110,98
-
-[Containments][70][Applets][53][Configuration][SensorLabels]
-disk/43bb1ad1-ac76-4345-a28c-bf91de11127a/free=Free Space
-disk/43bb1ad1-ac76-4345-a28c-bf91de11127a/total=Total Space
-disk/43bb1ad1-ac76-4345-a28c-bf91de11127a/used=Used Space
-disk/43bb1ad1-ac76-4345-a28c-bf91de11127a/usedPercent=Percentage Used
-
-[Containments][70][Applets][53][Configuration][Sensors]
-highPrioritySensorIds=["disk/43bb1ad1-ac76-4345-a28c-bf91de11127a/usedPercent"]
-lowPrioritySensorIds=["disk/43bb1ad1-ac76-4345-a28c-bf91de11127a/total","disk/43bb1ad1-ac76-4345-a28c-bf91de11127a/used","disk/43bb1ad1-ac76-4345-a28c-bf91de11127a/free"]
-totalSensors=["disk/all/usedPercent"]
-
-[Containments][70][Applets][56]
-immutability=1
-plugin=org.kde.plasma.systemmonitor.memory
-
-[Containments][70][Applets][56][Configuration]
-CurrentPreset=org.kde.plasma.systemmonitor
-
-[Containments][70][Applets][56][Configuration][Appearance]
-chartFace=org.kde.ksysguard.horizontalbars
-title=Memory Usage
-
-[Containments][70][Applets][56][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][70][Applets][56][Configuration][SensorColors]
-memory/physical/used=0,110,98
-memory/physical/usedPercent=85,170,255
-
-[Containments][70][Applets][56][Configuration][Sensors]
-highPrioritySensorIds=["memory/physical/usedPercent"]
-lowPrioritySensorIds=["memory/physical/total","memory/physical/used","memory/physical/free"]
-totalSensors=["memory/physical/usedPercent"]
-
-[Containments][70][Applets][62]
-immutability=1
-plugin=org.kde.plasma.systemmonitor
-
-[Containments][70][Applets][62][Configuration]
-CurrentPreset=org.kde.plasma.systemmonitor
-
-[Containments][70][Applets][62][Configuration][Appearance]
-chartFace=org.kde.ksysguard.linechart
-
-[Containments][70][Applets][62][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][70][Applets][62][Configuration][SensorColors]
-cpu/all/averageTemperature=27,110,0
-cpu/all/coreCount=110,29,0
-cpu/all/usage=85,170,255
-cpu/all/user=0,110,45
-cpu/cpu\temperature=1,110,0
-cpu/cpu age=43,0,110
-cpu/cpu0/temperature=0,71,110
-cpu/cpu0/usage=0,110,98
-cpu/cpu1/temperature=0,20,110
-cpu/cpu1/usage=0,67,110
-cpu/cpu10/temperature=4,110,0
-cpu/cpu10/usage=12,110,0
-cpu/cpu11/temperature=0,110,47
-cpu/cpu11/usage=0,110,43
-cpu/cpu2/temperature=30,0,110
-cpu/cpu2/usage=0,12,110
-cpu/cpu3/temperature=81,0,110
-cpu/cpu3/usage=43,0,110
-cpu/cpu4/temperature=110,0,88
-cpu/cpu4/usage=98,0,110
-cpu/cpu5/temperature=110,0,37
-cpu/cpu5/usage=110,0,67
-cpu/cpu6/temperature=110,13,0
-cpu/cpu6/usage=110,0,12
-cpu/cpu7/temperature=110,64,0
-cpu/cpu7/usage=110,43,0
-cpu/cpu8/temperature=105,110,0
-cpu/cpu8/usage=110,98,0
-cpu/cpu9/temperature=54,110,0
-cpu/cpu9/usage=67,110,0
-
-[Containments][70][Applets][62][Configuration][Sensors]
-highPrioritySensorIds=["cpu/all/usage"]
-lowPrioritySensorIds=["cpu/all/averageTemperature"]
-
-[Containments][70][Applets][63]
-immutability=1
-plugin=org.kde.plasma.systemmonitor.net
-
-[Containments][70][Applets][63][Configuration]
-CurrentPreset=org.kde.plasma.systemmonitor
-
-[Containments][70][Applets][63][Configuration][Appearance]
-chartFace=org.kde.ksysguard.linechart
-title=Network speed
-
-[Containments][70][Applets][63][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][70][Applets][63][Configuration][SensorColors]
-network/all/download=85,170,255
-network/all/upload=255,170,127
-
-[Containments][70][Applets][63][Configuration][Sensors]
-highPrioritySensorIds=["network/all/download","network/all/upload"]
-
-[Containments][70][Applets][66]
-immutability=1
-plugin=org.kde.plasma.systemmonitor.cpu
-
-[Containments][70][Applets][66][Configuration]
-CurrentPreset=org.kde.plasma.systemmonitor
-
-[Containments][70][Applets][66][Configuration][Appearance]
-chartFace=org.kde.ksysguard.horizontalbars
-title=Battery
-
-[Containments][70][Applets][66][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][70][Applets][66][Configuration][SensorColors]
-cpu/all/usage=0,110,98
-power/SerialNumber/capacity=85,110,0
-power/SerialNumber/charge=110,108,0
-power/SerialNumber/chargePercentage=110,34,0
-power/SerialNumber/chargeRate=100,110,0
-power/SerialNumber/health=110,0,42
-
-[Containments][70][Applets][66][Configuration][Sensors]
-highPrioritySensorIds=["power/SerialNumber/chargePercentage"]
-lowPrioritySensorIds=["power/SerialNumber/capacity","power/SerialNumber/health"]
-totalSensors=[]
-
-[Containments][70][Applets][67]
-immutability=1
-plugin=org.kde.plasma.lock_logout
-
-[Containments][70][Applets][67][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][70][Applets][67][Configuration][General]
-show_requestLogout=true
-show_requestReboot=true
-show_suspendToRam=true
-show_switchUser=true
-
-[Containments][70][Applets][71]
-immutability=1
-plugin=org.kde.plasma.systemmonitor
-
-[Containments][70][Applets][71][Configuration]
-CurrentPreset=org.kde.plasma.systemmonitor
-
-[Containments][70][Applets][71][Configuration][Appearance]
-chartFace=org.kde.ksysguard.linechart
-title=Battery Charging Rate
-
-[Containments][70][Applets][71][Configuration][ConfigDialog]
-DialogHeight=404
-DialogWidth=720
-
-[Containments][70][Applets][71][Configuration][SensorColors]
-power/SerialNumber/chargeRate=54,0,110
-
-[Containments][70][Applets][71][Configuration][Sensors]
-highPrioritySensorIds=["power/SerialNumber/chargeRate"]
-
-[Containments][70][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][70][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=192
-locked=true
-positions={"1536x864":["1"\\,"14"\\,"desktop:/test.js"\\,"0"\\,"2"\\,"desktop:/Azizi simulation.ods"\\,"0"\\,"1"\\,"desktop:/tests"\\,"0"\\,"0"]\\,"1920x1080":[]\\,"1807x1016":[]\\,"3840x2160":[""]\\,"1745x982":[]\\,"1280x720":[""]\\,"1600x900":[""]\\,"1707x960":[]}
+[Containments][72][General]
+arrangement=1
+positions={"1536x864":["14","7","desktop:/note.txt","1","2","desktop:/My server","0","0","desktop:/order_export_2025-09-11-03-29-21.xlsx","1","4","desktop:/Log parser","0","5","desktop:/Firefox - FB 2.desktop","13","2","desktop:/Firefox - FB 3.desktop","13","3","desktop:/Warmer","1","1","desktop:/IPTV Website","0","4","desktop:/IPTV Panels DB.xlsx","1","5","desktop:/Facebook","1","0","desktop:/Emails sender","0","1","desktop:/Firefox - FB 1.desktop","13","1","desktop:/Mega OTT","0","3","desktop:/Now-Payments.txt","1","3","desktop:/Inspiration","0","2","desktop:/Firefox - obito.desktop","13","0"],"864x1536":["3","8","desktop:/poster2.jpeg","0","6","desktop:/poster1.jpeg","0","2","desktop:/Screenshot_20250604_190032.png","2","1","desktop:/IDS-logo.png","2","0","desktop:/IPTV Website v2","0","7","desktop:/340fc5226447209.682e8c40c4eab.jpg","1","7","desktop:/IPTV Website","1","6","desktop:/My server","1","5","desktop:/note.txt","0","3","desktop:/c03d79179569223.64fba6c6b7fa1.webp","1","3","desktop:/poster1.xcf","1","4","desktop:/copyright.md","0","5","desktop:/image.jpg","0","4","desktop:/Quick IPTV Website","1","0","desktop:/text.txt","0","1","desktop:/b4558d226327227.682d37d0c915f.webp","0","0","desktop:/b11d38226327227.682d37d0c97e4.webp","1","2","desktop:/d6f586179569223.64fba6c63a853.webp","1","1"]}
+previews=false
 sortMode=-1
 
-[Containments][70][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/summer_1am/
+[Containments][72][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/Mountain/
+PreviewImage=/usr/share/wallpapers/Mountain/
 SlidePaths=/usr/share/wallpapers/
+
+[Containments][73]
+ItemGeometries-1536x864=
+ItemGeometriesHorizontal=
+activityId=da58b092-8709-45c0-be32-121c62ba4980
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][73][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][73][General]
+positions={"1536x864":[],"1920x1080":[],"2648x1490":[],"640x480":[]}
+
+[Containments][73][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/Mountain/
+PreviewImage=/usr/share/wallpapers/Mountain/
+SlidePaths=/usr/share/wallpapers/
+
+[Containments][8][Applets][25][Configuration]
+PreloadWeight=34
+
+[Containments][8][Applets][26][Configuration]
+PreloadWeight=34
 
 [Containments29Appletsts][31][Configuration][General]
 launchers=preferred://filemanager,applications:org.kde.konsole.desktop,preferred://browser,applications:org.manjaro.pamac.manager.desktop
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,1a81f44e-02dd-4bed-8661-1d5697b45639,4,desktop:/Azizi simulation.ods,desktop:/tests,desktop:/nqueens.pmdx,desktop:/test.js
-screenMapping=desktop:/Azizi simulation.ods,1,1a81f44e-02dd-4bed-8661-1d5697b45639,desktop:/tests,1,1a81f44e-02dd-4bed-8661-1d5697b45639,desktop:/test.js,1,1a81f44e-02dd-4bed-8661-1d5697b45639,desktop:/nqueens.pmdx,1,1a81f44e-02dd-4bed-8661-1d5697b45639
+itemsOnDisabledScreens=0,1a81f44e-02dd-4bed-8661-1d5697b45639,4,desktop:/tests,desktop:/Azizi simulation.ods,desktop:/test.js,desktop:/nqueens.pmdx
+screenMapping=desktop:/Mega OTT,0,da58b092-8709-45c0-be32-121c62ba4980,desktop:/Analytics _ iptv - Dashboard.pdf,0,da58b092-8709-45c0-be32-121c62ba4980,desktop:/firefox_firefox3.desktop,0,da58b092-8709-45c0-be32-121c62ba4980,desktop:/Login _ iptv - Dashboard.pdf,0,da58b092-8709-45c0-be32-121c62ba4980,desktop:/IPTV Panels DB.xlsx,0,da58b092-8709-45c0-be32-121c62ba4980,desktop:/Firefox - obito.desktop,0,da58b092-8709-45c0-be32-121c62ba4980,desktop:/Emails sender,0,da58b092-8709-45c0-be32-121c62ba4980,desktop:/Business verificqtion,0,da58b092-8709-45c0-be32-121c62ba4980,desktop:/IPTV Website,0,da58b092-8709-45c0-be32-121c62ba4980,desktop:/tests,0,1a81f44e-02dd-4bed-8661-1d5697b45639,desktop:/Inspiration,0,da58b092-8709-45c0-be32-121c62ba4980,desktop:/Firefox - FB 1.desktop,0,da58b092-8709-45c0-be32-121c62ba4980,desktop:/firefox_firefox.desktop,0,da58b092-8709-45c0-be32-121c62ba4980,desktop:/My server,0,da58b092-8709-45c0-be32-121c62ba4980,desktop:/test.js,0,1a81f44e-02dd-4bed-8661-1d5697b45639,desktop:/nqueens.pmdx,0,1a81f44e-02dd-4bed-8661-1d5697b45639,desktop:/Analytics _ iptv - Dashboard 2.pdf,0,da58b092-8709-45c0-be32-121c62ba4980,file:///home/obito/Desktop/www,0,da58b092-8709-45c0-be32-121c62ba4980,desktop:/note.txt,0,da58b092-8709-45c0-be32-121c62ba4980,desktop:/Now-Payments.txt,0,da58b092-8709-45c0-be32-121c62ba4980,desktop:/Firefox - FB 3.desktop,0,da58b092-8709-45c0-be32-121c62ba4980,desktop:/Azizi simulation.ods,0,1a81f44e-02dd-4bed-8661-1d5697b45639,desktop:/Log parser,0,da58b092-8709-45c0-be32-121c62ba4980,desktop:/Analytics _ iptv - Dashboard 3.pdf,0,da58b092-8709-45c0-be32-121c62ba4980,desktop:/Warmer,0,da58b092-8709-45c0-be32-121c62ba4980,desktop:/Facebook,0,da58b092-8709-45c0-be32-121c62ba4980,desktop:/firefox_firefox2.desktop,0,da58b092-8709-45c0-be32-121c62ba4980,desktop:/order_export_2025-09-11-03-29-21.xlsx,0,da58b092-8709-45c0-be32-121c62ba4980,desktop:/Firefox - FB 2.desktop,0,da58b092-8709-45c0-be32-121c62ba4980
