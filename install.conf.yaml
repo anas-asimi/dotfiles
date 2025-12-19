@@ -15,6 +15,7 @@
       ~/.config/konsolerc: config/konsolerc
       ~/.config/plasma-org.kde.plasma.desktop-appletsrc: config/plasma-org.kde.plasma.desktop-appletsrc
       ~/.config/plasma-workspace/env/kde_env_var.sh: config/plasma-workspace/env/kde_env_var.sh
+      ~/.config/panel-colorizer/presets/Panel colorizer config/settings.json: config/panel-colorizer/presets/Panel colorizer config/settings.json
 
 - shell:
       - [git submodule update --init --recursive, Installing submodules]
